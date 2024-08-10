@@ -7,7 +7,7 @@ import { TbArrowUpRight } from "react-icons/tb"
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { desVariants, tagVariants, titleVariants } from '@/utils/animation'
 
-const page = () => {
+const Page = () => {
   const ref = useRef(null)
 
   const {scrollYProgress} = useScroll ({
@@ -44,7 +44,7 @@ const page = () => {
           style={{scale}}
           ref={ref}
           className='w-full'>
-            <Image src="/image/gallery1.jpg" width={700} height={700}/>
+            <Image src="/image/gallery1.jpg" width={700} height={700} alt='#'/>
           </motion.div>
            {/*Right content section */}
           <motion.div
@@ -126,4 +126,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

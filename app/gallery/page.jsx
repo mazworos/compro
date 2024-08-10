@@ -1,4 +1,4 @@
-const page = () => {
+const Page = () => {
   return (
     <div className="container py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
       <div className="flex flex-col gap-4">
@@ -53,4 +53,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

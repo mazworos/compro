@@ -31,7 +31,7 @@ const projects = [
   },
 ];
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <div className="bg-[url('/image/backgroundprojects.jpg')] bg-center">
@@ -57,4 +57,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
